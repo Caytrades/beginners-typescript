@@ -7,7 +7,13 @@ tsc --version
 
 tsc --init --sourceMap --rootDir src --outDir dist
 
-Launch json
+Create Directories
+--src
+
+Go to "Run and Debug" to find the "Launch json" 
+
+In the launch.json file 
+Change to "program": "${workspaceFolder}/src/index.ts"
 
 tsc (To compile)
 
@@ -17,10 +23,15 @@ Install a copy of typescript locally
 
 npm install --save-dev typescript
 
-F1
+Crtl + F1
 
 Task Configure Defualt Build Task 
 
-tsc watch1
+Look for tsc: watch
 
 Task run build task
+
+
+-----Running Typescript File
+npm install tsx
+tsx "filename"
